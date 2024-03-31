@@ -1,0 +1,36 @@
+export const Category = [
+        {id:1,txt:'전체',imgurl:'https://image.ohou.se/i/bucketplace-v2-development/uploads/shortcut/home_feed_shortcut_sets/167262690767101882.png?w=72'},
+        {id:2,txt:'크리스마스',imgurl:'https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/169858970491450071.png?w=72'},
+        {id:3,txt:'겨울용품',imgurl:'https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/169882052467849842.png?w=72'},
+        {id:4,txt:'가구',imgurl:'https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/165698403420736265.png?w=72'},
+        {id:5,txt:'패브릭',imgurl:'https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/169336026919989706.png?w=72'},
+        {id:6,txt:'가전디지털',imgurl:'https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/169258215285574092.png?w=72'},
+        {id:7,txt:'주방용품',imgurl:'https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/165443714334272236.png?w=72'},
+        {id:8,txt:'식품',imgurl:'https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/166727583625644946.png?w=72'},
+        {id:9,txt:'데코,식물',imgurl:'https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/167167019685810067.png?w=72'},
+        {id:10,txt:'조명',imgurl:'https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/165443713935676588.png?w=72'},
+        {id:11,txt:'수납,정리',imgurl:'https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/165443714917341657.png?w=72'},
+        {id:12,txt:'생활용품',imgurl:'https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/165519431107541334.png?w=72'},
+        {id:13,txt:'생필품',imgurl:'https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/165579048228622395.png?w=72'},
+        {id:14,txt:'유아,아동',imgurl:'https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/166598560990637620.png?w=72'},
+        {id:15,txt:'반려용품',imgurl:'https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/162823231401891024.png?w=72'},
+        {id:16,txt:'캠핑,래져',imgurl:'https://image.ohou.se/i/bucketplace-v2-development/uploads/category/store_home_categories/169331096291521248.png?w=72'},
+]
+export const Menu_Category = [
+        {id:1,txt:'쇼핑하기',imgurl:'https://image.ohou.se/i/bucketplace-v2-development/uploads/shortcut/home_feed_shortcut_sets/167262690767101882.png?w=72'},
+        {id:2,txt:'연말빅세일',imgurl:'/images/Menu_BigSale.png'},
+        {id:3,txt:'오늘의딜',imgurl:'/images/Menu_TimeDeal.png'},
+        {id:4,txt:'수납꿀팁',imgurl:'/images/Menu_SaveTip.png'},
+        {id:5,txt:'행운출첵',imgurl:'/images/Menu_LuckyCheck.png'},
+        {id:6,txt:'집들이',imgurl:'/images/Menu_Intro.png'},
+        {id:7,txt:'추천콘텐츠',imgurl:'/images/Menu_MenuSuge.png'},
+        {id:8,txt:'빠른배송',imgurl:'/images/Menu_FastDel.png'},
+        {id:9,txt:'리모델링',imgurl:'/images/Menu_Remodeling.png'},
+        {id:10,txt:'쉬운이사',imgurl:'/images/Menu_EasyMove.png'},
+]
+export const BD_Category =[
+        { id:'a' ,txt:'전체' ,value:'best' ,ischk: true},
+        { id:'b' ,txt:'침구' ,value:'furn',ischk: false},
+        { id:'c' ,txt:'책상' ,value:'desk',ischk: false },
+        { id:'d' ,txt:'의자' ,value:'chair',ischk: false },
+]
