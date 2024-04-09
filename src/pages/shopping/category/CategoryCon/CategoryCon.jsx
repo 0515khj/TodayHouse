@@ -9,7 +9,7 @@ import InfiniteBox from './InfiniteScroll/InfiniteBox';
 const CategoryCon = () => {
     return (
         <CategoryConStyle>
-            <span style={{fontSize:'15px', marginBottom:'10px', display:'block'}}>가구</span>
+            <span style={{fontSize:'20px', marginBottom:'10px', display:'block'}}>가구</span>
             <CartSlide/>
             <CatgoryConGalleryType/>
             <ConAd/>

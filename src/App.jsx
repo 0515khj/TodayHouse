@@ -1,7 +1,6 @@
 import React from 'react';
 import {  BrowserRouter as Router ,  Routes,  Route } from "react-router-dom";
 import GlobalStyle from './styled/GlobalStyle';
-import Main from './pages/main/main';
 import Layout from './components/Layout';
 import CategoryMain from './pages/shopping/category/CategoryMain/CategoryMain';
 import ShoppingHome from './pages/shopping/shoppingHome/ShoppingHome';
@@ -20,12 +19,16 @@ import CumuHome from './pages/community/cumu/cumuHome/CumuHome';
 const App = () => {
   return (
     <>
-    <GlobalStyle />
+
+
+    
+
+     <GlobalStyle />
     <Router basename='/Todayhouse' >
     <Routes>
-    <Route path='/login' element={<Login />}></Route>
-    <Route path='/join' element={<Join />}></Route>
     <Route path='/' element={<Layout />}>
+    <Route path='/login' element={<Login />}/>
+    <Route path='/join' element={<Join />}/>
     <Route path='/community'>
       <Route index path='/community/home' element={<CumuHome/>}/>
       <Route path='/community/housemain' element={<HouseMain/>}/>
@@ -46,7 +49,7 @@ const App = () => {
     </Route>
     </Route>
     </Routes>
-    </Router>
+    </Router> 
     </>
   );
 };

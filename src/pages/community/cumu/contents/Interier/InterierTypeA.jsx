@@ -40,13 +40,5 @@ const InterierTypeA = () => {
 
 export default InterierTypeA;
 
-{/* <li style={{width:'172px',height:'230px'}}>
-                            <a href="">
-                                <img className='main' src={item.img} style={{width:'172px',height:'230px',borderRadius:'10px',}}/>
-                            </a>
-                            <p style={{position:'relative', top:'-60px'}}>
-                                <img src={item.img} className='Profile' style={{position:'relative', width:'40px', height:'40px', border:'1px solid #ddd',borderRadius:'20px', left:'-61px'}}/>
-                                <p style={{fontWeight:600, color:"#f5f5f5",position:'relative', top:'-41px',left:'0px'}}>{item.title}</p>
-                            </p>
-                        </li> */}
+
             

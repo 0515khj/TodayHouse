@@ -3,32 +3,32 @@
       "id":1,
       "brand":"휴도",
       "title":"[쿠폰가9.4만]편안한 제주 25cm 필로우탑 본넬스프링 침대 매트리스 S/SS/Q/K",
-      "mainimg":"/images/HUDO.jpg",
+      "mainimg":"../images/HUDO.jpg",
       "mainPrice":99000,
       "specialPrice":true,
       "deliveryToday":false,
       "freeDelivery":true,
       "category":"bed",
-      "reviews":17891,
+      "reviews":17899,
       "popularity":1,
       "salePercent":"66%",
       "rating":"4.9",
       "gallery":[
          {
             "id":1,
-            "subimg":"./images/HudoSub0.jpg"
+            "subimg":"../images/HudoSub0.jpg"
          },
          {
             "id":2,
-            "subimg":"./images/HudoSub1.jpg"
+            "subimg":"../images/HudoSub1.jpg"
          },
          {
             "id":3,
-            "subimg":"./images/HudoSub2.jpg"
+            "subimg":"../images/HudoSub2.jpg"
          },
          {
             "id":4,
-            "subimg":"./images/HudoSub3.jpg"
+            "subimg":"../images/HudoSub3.jpg"
          }
       ],
       "selectPrice":[
@@ -102,7 +102,7 @@
       "id":2,
       "brand":"노르웨이숲",
       "title":"침대 프레임 매트리스 깔판 저상형 패밀리 받침대 미니싱글 600",
-      "mainimg":"/images/Norway.jpg",
+      "mainimg":"../images/Norway.jpg",
       "mainPrice":19900,
       "specialPrice":true,
       "deliveryToday":false,
@@ -115,19 +115,19 @@
       "gallery":[
          {
             "id":1,
-            "subimg":"./images/NorwaySub0.jpg"
+            "subimg":"../images/NorwaySub0.jpg"
          },
          {
             "id":2,
-            "subimg":"./images/NorwaySub1.jpg"
+            "subimg":"../images/NorwaySub1.jpg"
          },
          {
             "id":3,
-            "subimg":"./images/NorwaySub2.jpg"
+            "subimg":"../images/NorwaySub2.jpg"
          },
          {
             "id":4,
-            "subimg":"./images/NorwaySub3.jpg"
+            "subimg":"../images/NorwaySub3.jpg"
          }
       ],
       "selectPrice":[
@@ -201,7 +201,7 @@
       "id":3,
       "brand":"베스트리빙",
       "title":"[5%쿠폰][New컬러출시] 애슐리 원목 전신거울 7colors",
-      "mainimg":"/images/bestLiving.jpg",
+      "mainimg":"../images/bestLiving.jpg",
       "mainPrice":33900,
       "specialPrice":true,
       "deliveryToday":true,

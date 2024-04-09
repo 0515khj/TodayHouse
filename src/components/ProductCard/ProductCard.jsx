@@ -11,9 +11,10 @@ const ProductCard = ({item,timedeal}) => {
   
     return (
          <>{
-            !timeout && <ProductCardStyle>
+            !timeout && 
+            <ProductCardStyle>
             {timedeal && specialPrice && <Timer hh={hh} setTimeOut={setTimeOut} timeout={timeout}/>}
-            <img src={mainimg} alt="" />
+            <img src={mainimg} alt="" /> {/* 이미지 */}
             <ProductCardTextStyle>
             <span style={{fontSize:'13px',fontWeight:300}}>{brand}</span>
             <h3>{title}</h3>

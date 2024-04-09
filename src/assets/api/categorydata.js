@@ -18,15 +18,15 @@ export const Category = [
 ]
 export const Menu_Category = [
         {id:1,txt:'쇼핑하기',imgurl:'https://image.ohou.se/i/bucketplace-v2-development/uploads/shortcut/home_feed_shortcut_sets/167262690767101882.png?w=72'},
-        {id:2,txt:'연말빅세일',imgurl:'/images/Menu_BigSale.png'},
-        {id:3,txt:'오늘의딜',imgurl:'/images/Menu_TimeDeal.png'},
-        {id:4,txt:'수납꿀팁',imgurl:'/images/Menu_SaveTip.png'},
-        {id:5,txt:'행운출첵',imgurl:'/images/Menu_LuckyCheck.png'},
-        {id:6,txt:'집들이',imgurl:'/images/Menu_Intro.png'},
-        {id:7,txt:'추천콘텐츠',imgurl:'/images/Menu_MenuSuge.png'},
-        {id:8,txt:'빠른배송',imgurl:'/images/Menu_FastDel.png'},
-        {id:9,txt:'리모델링',imgurl:'/images/Menu_Remodeling.png'},
-        {id:10,txt:'쉬운이사',imgurl:'/images/Menu_EasyMove.png'},
+        {id:2,txt:'연말빅세일',imgurl:'../images/Menu_BigSale.png'},
+        {id:3,txt:'오늘의딜',imgurl:'../images/Menu_TimeDeal.png'},
+        {id:4,txt:'수납꿀팁',imgurl:'../images/Menu_SaveTip.png'},
+        {id:5,txt:'행운출첵',imgurl:'../images/Menu_LuckyCheck.png'},
+        {id:6,txt:'집들이',imgurl:'../images/Menu_Intro.png'},
+        {id:7,txt:'추천콘텐츠',imgurl:'../images/Menu_MenuSuge.png'},
+        {id:8,txt:'빠른배송',imgurl:'../images/Menu_FastDel.png'},
+        {id:9,txt:'리모델링',imgurl:'../images/Menu_Remodeling.png'},
+        {id:10,txt:'쉬운이사',imgurl:'../images/Menu_EasyMove.png'},
 ]
 export const BD_Category =[
         { id:'a' ,txt:'전체' ,value:'best' ,ischk: true},

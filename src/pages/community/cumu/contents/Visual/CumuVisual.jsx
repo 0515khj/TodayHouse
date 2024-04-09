@@ -11,7 +11,10 @@ const CumuVisual = () => {
         <VisualWarp className="visual inner">
             <div className="inner">
             <Link to={''} className="bestblog">{visual.map(item=><img src={item.imgurl} key={item.id}/>)}
-            <p><img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/projects/cover_images/162530211946766441.JPG?w=850&h=509.79929161747344&c=c" className="profile"/><span>iriskim.cozy</span></p>
+            <p>
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/projects/cover_images/162530211946766441.JPG?w=850&h=509.79929161747344&c=c" className="profile"/>
+                <span>iriskim.cozy</span>
+            </p>
             </Link>
             
             <Swiper
