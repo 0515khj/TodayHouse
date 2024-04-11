@@ -9,8 +9,8 @@ const SubMenu = () => {
     return (
         <SubMenuList>
             <ul className='inner'>
-                {cumu?cumunity.map(item=><li key={item.id}><Link to={`/community/${item.url}`}>{item.txt}</Link></li>):null}
-                {shop?shopping.map(item=><li key={item.id}><Link to={`/shopping/${item.url}`}>{item.txt}</Link></li>):null}
+                {cumu?cumunity.map(item=><li key={item.id}><Link to={`/${item.url}`}>{item.txt}</Link></li>):null}
+                {shop?shopping.map(item=><li key={item.id}><Link to={`/${item.url}`}>{item.txt}</Link></li>):null}
             </ul>
         </SubMenuList>
     );

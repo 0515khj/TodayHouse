@@ -5,7 +5,7 @@ export const cumunity =  [
     {id:4 ,txt:'3D인테리어' ,url:'3dmain'},
 ]
 export const shopping =  [
-    {id:1 ,txt:'쇼핑홈' ,url:''},
+    {id:1 ,txt:'쇼핑홈' ,url:'shopping'},
     {id:2 ,txt:'카테고리' ,url:'category'},
     {id:3 ,txt:'베스트' ,url:'best'},
     {id:4 ,txt:'오늘의딜' ,url:'timedeal'},

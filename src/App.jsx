@@ -16,6 +16,7 @@ import House3DMain from './pages/community/house3D/House3DMain';
 import HouseSub from './pages/community/housego/housego2/HouseSub';
 import CumuHome from './pages/community/cumu/cumuHome/CumuHome';
 
+
 const App = () => {
   return (
     <>
@@ -26,26 +27,25 @@ const App = () => {
      <GlobalStyle />
     <Router basename='/Todayhouse' >
     <Routes>
-    <Route path='/' element={<Layout />}>
     <Route path='/login' element={<Login />}/>
     <Route path='/join' element={<Join />}/>
-    <Route path='/community'>
-      <Route index path='/community/home' element={<CumuHome/>}/>
-      <Route path='/community/housemain' element={<HouseMain/>}/>
-      <Route path='/community/picmain' element={<HousepicMain/>}/>
-      <Route path='/community/3dmain' element={<House3DMain/>}/>
-    </Route>
+    <Route path='/' element={<Layout />}>
+
+      <Route path='/home' element={<CumuHome/>}/>
+      <Route path='/housemain' element={<HouseMain/>}/>
+      <Route path='/picmain' element={<HousepicMain/>}/>
+      <Route path='/3dmain' element={<House3DMain/>}/>
     
     <Route path='housesub' element={<HouseSub/>}/>
 
     <Route path='/logout' element={<LogOut />}></Route>
     <Route path='/product' element={<ProductDetailCon/>}></Route>
     <Route index element={<CumuHome />}/>
-    <Route path='/shopping'>
+    <Route path='/'>
       <Route index path='/shopping' element={<ShoppingHome/>}></Route>
-      <Route path='/shopping/category' element={<CategoryMain/>}/>
-      <Route path='/shopping/best' element={<BestMain/>}/>
-      <Route path='/shopping/timedeal' element={<TimeDealCon/>}/>
+      <Route path='/category' element={<CategoryMain/>}/>
+      <Route path='/best' element={<BestMain/>}/>
+      <Route path='/timedeal' element={<TimeDealCon/>}/>
     </Route>
     </Route>
     </Routes>

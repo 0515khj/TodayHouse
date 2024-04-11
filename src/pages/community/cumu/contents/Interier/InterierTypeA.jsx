@@ -21,10 +21,9 @@ const InterierTypeA = () => {
                 <SwiperSlide key={item.id}>
                     
                     <li>
-                        <a href="">
+                        <Link to="/housesub">
                             <img className='main' src={item.img} style={{borderRadius:'10px'}}/>
-                        
-                        </a>
+                        </Link>
                         
                         <p style={{position:'relative', top:'-60px'}}>
                             <img src={item.profile} className='Profile' style={{position:'absolute', width:'40px', height:'40px', border:'1px solid #ddd',borderRadius:'20px', left:'10px',top:'-10px'}}/>

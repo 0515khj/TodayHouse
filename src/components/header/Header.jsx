@@ -12,7 +12,7 @@ const Header = () => {
           <HeaderWrap>
             <div className='inner'>
                 <div>
-                    <Link to={'/community/home'}>
+                    <Link to={'/home'}>
                 <h1><img src={logo} alt="" /></h1>
                 </Link>
                 <NavBar/>

@@ -1,25 +1,25 @@
 export default [
     {
         id: 1,
-        brand: '휴도1',
+        brand: '휴도',
         title: '[쿠폰가9.4만]편안한 제주 25cm 필로우탑 본넬스프링 침대 매트리스 S/SS/Q/K',
-        mainimg: '../images/HUDO.jpg',
+        mainimg: './images/HUDO.jpg',
         mainPrice: 99000,
         specialPrice: true,
         deliveryToday: false,
         freeDelivery:true,
         category: 'bed',
-        reviews: 17898,
+        reviews: 17891,
         popularity: 1,
         salePercent: '66%',
         rating: '4.9',
         best:'alltime',
         hh:'3',
         gallery: [
-            { id: 1, subimg: '../images/HudoSub0.jpg' },
-            { id: 2, subimg: '../images/HudoSub1.jpg' },
-            { id: 3, subimg: '../images/HudoSub2.jpg' },
-            { id: 4, subimg: '../images/HudoSub3.jpg' },
+            { id: 1, subimg: './images/HudoSub0.jpg' },
+            { id: 2, subimg: './images/HudoSub1.jpg' },
+            { id: 3, subimg: './images/HudoSub2.jpg' },
+            { id: 4, subimg: './images/HudoSub3.jpg' },
         ],
         selectPrice: [
             {
@@ -70,7 +70,7 @@ export default [
         id: 2,
         brand: '노르웨이숲',
         title: '침대 프레임 매트리스 깔판 저상형 패밀리 받침대 미니싱글 600',
-        mainimg: '../images/Norway.jpg',
+        mainimg: './images/Norway.jpg',
         mainPrice: 19900,
         specialPrice: true,
         deliveryToday: false,
@@ -83,10 +83,10 @@ export default [
         best:'realtime',
         hh:'3',
         gallery: [
-            { id: 1, subimg: '../images/NorwaySub0.jpg' },
-            { id: 2, subimg: '../images/NorwaySub1.jpg' },
-            { id: 3, subimg: '../images/NorwaySub2.jpg' },
-            { id: 4, subimg: '../images/NorwaySub3.jpg' },
+            { id: 1, subimg: './images/NorwaySub0.jpg' },
+            { id: 2, subimg: './images/NorwaySub1.jpg' },
+            { id: 3, subimg: './images/NorwaySub2.jpg' },
+            { id: 4, subimg: './images/NorwaySub3.jpg' },
         ],
         selectPrice: [
             {
@@ -137,7 +137,7 @@ export default [
         id: 3,
         brand: '베스트리빙',
         title: '[5%쿠폰][New컬러출시] 애슐리 원목 전신거울 7colors',
-        mainimg: '../images/bestLiving.jpg',
+        mainimg: './images/bestLiving.jpg',
         mainPrice: 33900,
         specialPrice: true,
         deliveryToday: true,
@@ -150,10 +150,10 @@ export default [
         best:'alltime',
         hh:'3',
         gallery: [
-            { id: 1, subimg: '../images/bestLivingSub0.jpg' },
-            { id: 2, subimg: '../images/bestLivingSub1.jpg' },
-            { id: 3, subimg: '../images/bestLivingSub2.jpg' },
-            { id: 4, subimg: '../images/bestLivingSub3.jpg' },
+            { id: 1, subimg: './images/bestLivingSub0.jpg' },
+            { id: 2, subimg: './images/bestLivingSub1.jpg' },
+            { id: 3, subimg: './images/bestLivingSub2.jpg' },
+            { id: 4, subimg: './images/bestLivingSub3.jpg' },
         ],
         selectPrice: [
             {
@@ -186,7 +186,7 @@ export default [
         id: 4,
         brand: '영가구',
         title: '[리뷰 25,000개] 베가 폴라 투명 접이식의자 17colors 대량구매추가할인',
-        mainimg: '../images/younggagu.jpg',
+        mainimg: './images/younggagu.jpg',
         mainPrice: 25600,
         specialPrice: false,
         deliveryToday: true,
@@ -199,10 +199,10 @@ export default [
         best:'realtime',
         hh:'3',
         gallery: [
-            { id: 1, subimg: '../images/younggaguSub0.jpg' },
-            { id: 2, subimg: '../images/younggaguSub1.jpg' },
-            { id: 3, subimg: '../images/younggaguSub2.jpg' },
-            { id: 4, subimg: '../images/younggaguSub3.jpg' },
+            { id: 1, subimg: './images/younggaguSub0.jpg' },
+            { id: 2, subimg: './images/younggaguSub1.jpg' },
+            { id: 3, subimg: './images/younggaguSub2.jpg' },
+            { id: 4, subimg: './images/younggaguSub3.jpg' },
         ],
         selectPrice: [
             {
@@ -235,7 +235,7 @@ export default [
         id: 5,
         brand: '상도가구',
         title: '사이즈 맞춤제작 몬스터랙 조립식 앵글 모듈 공간활용 수납선반 팬트리',
-        mainimg: '../images/sangdo.jpg',
+        mainimg: './images/sangdo.jpg',
         mainPrice: 99000,
         specialPrice: true,
         deliveryToday: false,
@@ -248,10 +248,10 @@ export default [
         best:'alltime',
         hh:'3',
         gallery: [
-            { id: 1, subimg: '../images/sangdoSub0.jpg' },
-            { id: 2, subimg: '../images/sangdoSub1.jpg' },
-            { id: 3, subimg: '../images/sangdoSub2.jpg' },
-            { id: 4, subimg: '../images/sangdoSub3.jpg' },
+            { id: 1, subimg: './images/sangdoSub0.jpg' },
+            { id: 2, subimg: './images/sangdoSub1.jpg' },
+            { id: 3, subimg: './images/sangdoSub2.jpg' },
+            { id: 4, subimg: './images/sangdoSub3.jpg' },
         ],
         selectPrice: [
             {
@@ -289,7 +289,7 @@ export default [
         id: 6,
         brand: '우드레이',
         title: '[5%쿠폰] 블랑 좌식 접이식 상 거실테이블 3size(보호캡 증정)',
-        mainimg: '../images/woodray.jpg',
+        mainimg: './images/woodray.jpg',
         mainPrice: 17900,
         specialPrice: false,
         deliveryToday: true,
@@ -302,10 +302,10 @@ export default [
         best:'realtime',
         hh:'3',
         gallery: [
-            { id: 1, subimg: '../images/woodraySub0.jpg' },
-            { id: 2, subimg: '../images/woodraySub1.jpg' },
-            { id: 3, subimg: '../images/woodraySub2.jpg' },
-            { id: 4, subimg: '../images/woodraySub3.jpg' },
+            { id: 1, subimg: './images/woodraySub0.jpg' },
+            { id: 2, subimg: './images/woodraySub1.jpg' },
+            { id: 3, subimg: './images/woodraySub2.jpg' },
+            { id: 4, subimg: './images/woodraySub3.jpg' },
         ],
         selectPrice: [
             {
@@ -336,7 +336,7 @@ export default [
         id: 7,
         brand: '먼데이하우스',
         title: '[5%쿠폰] 허리가 편안한 호텔식 숙면 포켓스프링 필로우탑 매트리스(25cm)',
-        mainimg: '../images/Mondayhouse.jpg',
+        mainimg: '/images/Mondayhouse.jpg',
         mainPrice: 99000,
         specialPrice: false,
         deliveryToday: false,
@@ -349,10 +349,10 @@ export default [
         best:'alltime',
         hh:'3',
         gallery: [
-            { id: 1, subimg: '../images/MondayhouseSub0.jpg' },
-            { id: 2, subimg: '../images/MondayhouseSub1.jpg' },
-            { id: 3, subimg: '../images/MondayhouseSub2.jpg' },
-            { id: 4, subimg: '../images/MondayhouseSub3.jpg' },
+            { id: 1, subimg: './images/MondayhouseSub0.jpg' },
+            { id: 2, subimg: './images/MondayhouseSub1.jpg' },
+            { id: 3, subimg: './images/MondayhouseSub2.jpg' },
+            { id: 4, subimg: './images/MondayhouseSub3.jpg' },
         ],
         selectPrice: [
             {
@@ -383,7 +383,7 @@ export default [
         id: 8,
         brand: '두닷',
         title: '[쿠폰]콰트로 에어 데스크 20size 5colors',
-        mainimg: '../images/dodot.jpg',
+        mainimg: './images/dodot.jpg',
         mainPrice: 125000,
         specialPrice: true,
         deliveryToday: true,
@@ -396,10 +396,10 @@ export default [
         best:'realtime',
         hh:'3',
         gallery: [
-            { id: 1, subimg: '../images/dodotSub0.jpg' },
-            { id: 2, subimg: '../images/dodotSub1.jpg' },
-            { id: 3, subimg: '../images/dodotSub2.jpg' },
-            { id: 4, subimg: '../images/dodotSub3.jpg' },
+            { id: 1, subimg: './images/dodotSub0.jpg' },
+            { id: 2, subimg: './images/dodotSub1.jpg' },
+            { id: 3, subimg: './images/dodotSub2.jpg' },
+            { id: 4, subimg: './images/dodotSub3.jpg' },
         ],
         selectPrice: [
             {
@@ -436,7 +436,7 @@ export default [
         id: 9,
         brand: '두닷',
         title: '[쿠폰]콰트로 데스크 시리즈 19size 8colors (800~2000mm)',
-        mainimg: '../images/doodot.jpg',
+        mainimg: './images/doodot.jpg',
         mainPrice: 82000,
         specialPrice: true,
         deliveryToday: false,
@@ -449,10 +449,10 @@ export default [
         best:'alltime',
         hh:'5',
         gallery: [
-            { id: 1, subimg: '../images/doodotSub0.jpg' },
-            { id: 2, subimg: '../images/doodotSub1.jpg' },
-            { id: 3, subimg: '../images/doodotSub2.jpg' },
-            { id: 4, subimg: '../images/doodotSub3.jpg' },
+            { id: 1, subimg: './images/doodotSub0.jpg' },
+            { id: 2, subimg: './images/doodotSub1.jpg' },
+            { id: 3, subimg: './images/doodotSub2.jpg' },
+            { id: 4, subimg: './images/doodotSub3.jpg' },
         ],
         selectPrice: [
             {
@@ -489,7 +489,7 @@ export default [
         id: 10,
         brand: '다니카',
         title: '[단독] 뮤즈 편한 팔걸이 컴퓨터 메쉬 사무용 의자',
-        mainimg: '../images/danaka.jpg',
+        mainimg: './images/danaka.jpg',
         mainPrice: 47900,
         specialPrice: false,
         deliveryToday: false,
@@ -502,10 +502,10 @@ export default [
         best:'realtime',
         hh:'5',
         gallery: [
-            { id: 1, subimg: '../images/danakaSub0.jpg' },
-            { id: 2, subimg: '../images/danakaSub1.jpg' },
-            { id: 3, subimg: '../images/danakaSub2.jpg' },
-            { id: 4, subimg: '../images/danakaSub3.jpg' },
+            { id: 1, subimg: './images/danakaSub0.jpg' },
+            { id: 2, subimg: './images/danakaSub1.jpg' },
+            { id: 3, subimg: './images/danakaSub2.jpg' },
+            { id: 4, subimg: './images/danakaSub3.jpg' },
         ],
         selectPrice: [
             {
@@ -532,7 +532,7 @@ export default [
         id: 11,
         brand: '아이와비',
         title: '카페 방수패브릭 접이식 소파베드 4colors',
-        mainimg: '../images/iyb.jpg',
+        mainimg: './images/iyb.jpg',
         mainPrice: 119000,
         specialPrice: true,
         deliveryToday: true,
@@ -545,10 +545,10 @@ export default [
         best:'alltime',
         hh:'5',
         gallery: [
-            { id: 1, subimg: '../images/iybSub0.jpg' },
-            { id: 2, subimg: '../images/iybSub1.jpg' },
-            { id: 3, subimg: '../images/iybSub2.jpg' },
-            { id: 4, subimg: '../images/iybSub3.jpg' },
+            { id: 1, subimg: './images/iybSub0.jpg' },
+            { id: 2, subimg: './images/iybSub1.jpg' },
+            { id: 3, subimg: './images/iybSub2.jpg' },
+            { id: 4, subimg: './images/iybSub3.jpg' },
         ],
         selectPrice: [
             {
@@ -568,7 +568,7 @@ export default [
         id: 12,
         brand: 'MF매직하우스',
         title: '무볼트 드레스룸 조립식 멀티행거',
-        mainimg: '../images/nfmagic.jpg',
+        mainimg: './images/nfmagic.jpg',
         mainPrice: 119000,
         specialPrice: true,
         deliveryToday: false,
@@ -581,10 +581,10 @@ export default [
         best:'realtime',
         hh:'5',
         gallery: [
-            { id: 1, subimg: '../images/nfmagicSub0.jpg' },
-            { id: 2, subimg: '../images/nfmagicSub1.jpg' },
-            { id: 3, subimg: '../images/nfmagicSub2.jpg' },
-            { id: 4, subimg: '../images/nfmagicSub3.jpg' },
+            { id: 1, subimg: './images/nfmagicSub0.jpg' },
+            { id: 2, subimg: './images/nfmagicSub1.jpg' },
+            { id: 3, subimg: './images/nfmagicSub2.jpg' },
+            { id: 4, subimg: './images/nfmagicSub3.jpg' },
         ],
         selectPrice: [
             {
@@ -598,7 +598,7 @@ export default [
         id: 13,
         brand: '에꼬드에꼬',
         title: '키드니빈즈 친환경 접이식 좌식테이블 2size (보호캡 증정)',
-        mainimg: '../images/aco.jpg',
+        mainimg: './images/aco.jpg',
         mainPrice: 17900,
         specialPrice: false,
         deliveryToday: false,
@@ -611,10 +611,10 @@ export default [
         best:'alltime',
         hh:'5',
         gallery: [
-            { id: 1, subimg: '../images/acoSub0.jpg' },
-            { id: 2, subimg: '../images/acoSub1.jpg' },
-            { id: 3, subimg: '../images/acoSub2.jpg' },
-            { id: 4, subimg: '../images/acoSub3.jpg' },
+            { id: 1, subimg: './images/acoSub0.jpg' },
+            { id: 2, subimg: './images/acoSub1.jpg' },
+            { id: 3, subimg: './images/acoSub2.jpg' },
+            { id: 4, subimg: './images/acoSub3.jpg' },
         ],
         selectPrice: [
             {
@@ -643,7 +643,7 @@ export default [
         id: 14,
         brand: '한샘',
         title: '한샘몰pick티렌토 리세 아쿠아텍스 3인용 패브릭 소파 3colors',
-        mainimg: '../images/hansam.jpg',
+        mainimg: './images/hansam.jpg',
         mainPrice: 268750,
         specialPrice: false,
         deliveryToday: true,
@@ -656,10 +656,10 @@ export default [
         best:'realtime',
         hh:'5',
         gallery: [
-            { id: 1, subimg: '../images/hansamSub0.jpg' },
-            { id: 2, subimg: '../images/hansamSub1.jpg' },
-            { id: 3, subimg: '../images/hansamSub2.jpg' },
-            { id: 4, subimg: '../images/hansamSub3.jpg' },
+            { id: 1, subimg: './images/hansamSub0.jpg' },
+            { id: 2, subimg: './images/hansamSub1.jpg' },
+            { id: 3, subimg: './images/hansamSub2.jpg' },
+            { id: 4, subimg: './images/hansamSub3.jpg' },
         ],
         selectPrice: [
             {
@@ -678,7 +678,7 @@ export default [
         id: 15,
         brand: '먼데이하우스',
         title: '[쿠폰가 50,065원] CLEAR 강화유리 거실테이블/타원형 소파테이블',
-        mainimg: '../images/monday.jpg',
+        mainimg: './images/monday.jpg',
         mainPrice: 58900,
         specialPrice: true,
         deliveryToday: true,
@@ -691,10 +691,10 @@ export default [
         best:'alltime',
         hh:'5',
         gallery: [
-            { id: 1, subimg: '../images/mondaySub0.jpg' },
-            { id: 2, subimg: '../images/mondaySub1.jpg' },
-            { id: 3, subimg: '../images/mondaySub2.jpg' },
-            { id: 4, subimg: '../images/mondaySub3.jpg' },
+            { id: 1, subimg: './images/mondaySub0.jpg' },
+            { id: 2, subimg: './images/mondaySub1.jpg' },
+            { id: 3, subimg: './images/mondaySub2.jpg' },
+            { id: 4, subimg: './images/mondaySub3.jpg' },
         ],
         selectPrice: [
             {
@@ -729,7 +729,7 @@ export default [
         id: 16,
         brand: '휴도',
         title: '[쿠폰가9.4만]편안한 제주 25cm 필로우탑 본넬스프링 침대 매트리스 S/SS/Q/K',
-        mainimg: '../images/HUDO.jpg',
+        mainimg: './images/HUDO.jpg',
         mainPrice: 99000,
         specialPrice: true,
         deliveryToday: false,
@@ -742,10 +742,10 @@ export default [
         best:'alltime',
         hh:'5',
         gallery: [
-            { id: 1, subimg: '../images/HudoSub0.jpg' },
-            { id: 2, subimg: '../images/HudoSub1.jpg' },
-            { id: 3, subimg: '../images/HudoSub2.jpg' },
-            { id: 4, subimg: '../images/HudoSub3.jpg' },
+            { id: 1, subimg: '/images/HudoSub0.jpg' },
+            { id: 2, subimg: '/images/HudoSub1.jpg' },
+            { id: 3, subimg: '/images/HudoSub2.jpg' },
+            { id: 4, subimg: '/images/HudoSub3.jpg' },
         ],
         selectPrice: [
             {
@@ -796,7 +796,7 @@ export default [
         id: 17,
         brand: '노르웨이숲',
         title: '침대 프레임 매트리스 깔판 저상형 패밀리 받침대 미니싱글 600',
-        mainimg: '../images/Norway.jpg',
+        mainimg: './images/Norway.jpg',
         mainPrice: 19900,
         specialPrice: true,
         deliveryToday: false,
@@ -809,10 +809,10 @@ export default [
         best:'realtime',
         hh:'8',
         gallery: [
-            { id: 1, subimg: '../images/NorwaySub0.jpg' },
-            { id: 2, subimg: '../images/NorwaySub1.jpg' },
-            { id: 3, subimg: '../images/NorwaySub2.jpg' },
-            { id: 4, subimg: '../images/NorwaySub3.jpg' },
+            { id: 1, subimg: './images/NorwaySub0.jpg' },
+            { id: 2, subimg: './images/NorwaySub1.jpg' },
+            { id: 3, subimg: './images/NorwaySub2.jpg' },
+            { id: 4, subimg: './images/NorwaySub3.jpg' },
         ],
         selectPrice: [
             {
@@ -863,7 +863,7 @@ export default [
         id: 18,
         brand: '베스트리빙',
         title: '[5%쿠폰][New컬러출시] 애슐리 원목 전신거울 7colors',
-        mainimg: '../images/bestLiving.jpg',
+        mainimg: './images/bestLiving.jpg',
         mainPrice: 33900,
         specialPrice: true,
         deliveryToday: true,
@@ -876,10 +876,10 @@ export default [
         best:'alltime',
         hh:'8',
         gallery: [
-            { id: 1, subimg: '../images/bestLivingSub0.jpg' },
-            { id: 2, subimg: '../images/bestLivingSub1.jpg' },
-            { id: 3, subimg: '../images/bestLivingSub2.jpg' },
-            { id: 4, subimg: '../images/bestLivingSub3.jpg' },
+            { id: 1, subimg: './images/bestLivingSub0.jpg' },
+            { id: 2, subimg: './images/bestLivingSub1.jpg' },
+            { id: 3, subimg: './images/bestLivingSub2.jpg' },
+            { id: 4, subimg: './images/bestLivingSub3.jpg' },
         ],
         selectPrice: [
             {
@@ -912,7 +912,7 @@ export default [
         id: 19,
         brand: '영가구',
         title: '[리뷰 25,000개] 베가 폴라 투명 접이식의자 17colors 대량구매추가할인',
-        mainimg: '../images/younggagu.jpg',
+        mainimg: './images/younggagu.jpg',
         mainPrice: 25600,
         specialPrice: false,
         deliveryToday: true,
@@ -925,10 +925,10 @@ export default [
         best:'realtime',
         hh:'8',
         gallery: [
-            { id: 1, subimg: '../images/younggaguSub0.jpg' },
-            { id: 2, subimg: '../images/younggaguSub1.jpg' },
-            { id: 3, subimg: '../images/younggaguSub2.jpg' },
-            { id: 4, subimg: '../images/younggaguSub3.jpg' },
+            { id: 1, subimg: './images/younggaguSub0.jpg' },
+            { id: 2, subimg: './images/younggaguSub1.jpg' },
+            { id: 3, subimg: './images/younggaguSub2.jpg' },
+            { id: 4, subimg: './images/younggaguSub3.jpg' },
         ],
         selectPrice: [
             {
@@ -961,7 +961,7 @@ export default [
         id: 20,
         brand: '상도가구',
         title: '사이즈 맞춤제작 몬스터랙 조립식 앵글 모듈 공간활용 수납선반 팬트리',
-        mainimg: '../images/sangdo.jpg',
+        mainimg: './images/sangdo.jpg',
         mainPrice: 99000,
         specialPrice: true,
         deliveryToday: false,
@@ -974,10 +974,10 @@ export default [
         best:'alltime',
         hh:'8',
         gallery: [
-            { id: 1, subimg: '../images/sangdoSub0.jpg' },
-            { id: 2, subimg: '../images/sangdoSub1.jpg' },
-            { id: 3, subimg: '../images/sangdoSub2.jpg' },
-            { id: 4, subimg: '../images/sangdoSub3.jpg' },
+            { id: 1, subimg: './images/sangdoSub0.jpg' },
+            { id: 2, subimg: './images/sangdoSub1.jpg' },
+            { id: 3, subimg: './images/sangdoSub2.jpg' },
+            { id: 4, subimg: './images/sangdoSub3.jpg' },
         ],
         selectPrice: [
             {
@@ -1015,7 +1015,7 @@ export default [
         id: 21,
         brand: '우드레이',
         title: '[5%쿠폰] 블랑 좌식 접이식 상 거실테이블 3size(보호캡 증정)',
-        mainimg: '../images/woodray.jpg',
+        mainimg: './images/woodray.jpg',
         mainPrice: 17900,
         specialPrice: false,
         deliveryToday: true,
@@ -1028,10 +1028,10 @@ export default [
         best:'realtime',
         hh:'8',
         gallery: [
-            { id: 1, subimg: '../images/woodraySub0.jpg' },
-            { id: 2, subimg: '../images/woodraySub1.jpg' },
-            { id: 3, subimg: '../images/woodraySub2.jpg' },
-            { id: 4, subimg: '../images/woodraySub3.jpg' },
+            { id: 1, subimg: './images/woodraySub0.jpg' },
+            { id: 2, subimg: './images/woodraySub1.jpg' },
+            { id: 3, subimg: './images/woodraySub2.jpg' },
+            { id: 4, subimg: './images/woodraySub3.jpg' },
         ],
         selectPrice: [
             {
@@ -1062,7 +1062,7 @@ export default [
         id: 22,
         brand: '먼데이하우스',
         title: '[5%쿠폰] 허리가 편안한 호텔식 숙면 포켓스프링 필로우탑 매트리스(25cm)',
-        mainimg: '../images/Mondayhouse.jpg',
+        mainimg: './images/Mondayhouse.jpg',
         mainPrice: 99000,
         specialPrice: false,
         deliveryToday: false,
@@ -1075,10 +1075,10 @@ export default [
         best:'alltime',
         hh:'8',
         gallery: [
-            { id: 1, subimg: '../images/MondayhouseSub0.jpg' },
-            { id: 2, subimg: '../images/MondayhouseSub1.jpg' },
-            { id: 3, subimg: '../images/MondayhouseSub2.jpg' },
-            { id: 4, subimg: '../images/MondayhouseSub3.jpg' },
+            { id: 1, subimg: './images/MondayhouseSub0.jpg' },
+            { id: 2, subimg: './images/MondayhouseSub1.jpg' },
+            { id: 3, subimg: './images/MondayhouseSub2.jpg' },
+            { id: 4, subimg: './images/MondayhouseSub3.jpg' },
         ],
         selectPrice: [
             {
@@ -1109,7 +1109,7 @@ export default [
         id: 23,
         brand: '두닷',
         title: '[쿠폰]콰트로 에어 데스크 20size 5colors',
-        mainimg: '../images/dodot.jpg',
+        mainimg: './images/dodot.jpg',
         mainPrice: 125000,
         specialPrice: true,
         deliveryToday: true,
@@ -1122,10 +1122,10 @@ export default [
         best:'realtime',
         hh:'8',
         gallery: [
-            { id: 1, subimg: '../images/dodotSub0.jpg' },
-            { id: 2, subimg: '../images/dodotSub1.jpg' },
-            { id: 3, subimg: '../images/dodotSub2.jpg' },
-            { id: 4, subimg: '../images/dodotSub3.jpg' },
+            { id: 1, subimg: './images/dodotSub0.jpg' },
+            { id: 2, subimg: './images/dodotSub1.jpg' },
+            { id: 3, subimg: './images/dodotSub2.jpg' },
+            { id: 4, subimg: './images/dodotSub3.jpg' },
         ],
         selectPrice: [
             {
@@ -1162,7 +1162,7 @@ export default [
         id: 24,
         brand: '두닷',
         title: '[쿠폰]콰트로 데스크 시리즈 19size 8colors (800~2000mm)',
-        mainimg: '../images/doodot.jpg',
+        mainimg: './images/doodot.jpg',
         mainPrice: 82000,
         specialPrice: true,
         deliveryToday: false,
@@ -1175,10 +1175,10 @@ export default [
         best:'alltime',
         hh:'8',
         gallery: [
-            { id: 1, subimg: '../images/doodotSub0.jpg' },
-            { id: 2, subimg: '../images/doodotSub1.jpg' },
-            { id: 3, subimg: '../images/doodotSub2.jpg' },
-            { id: 4, subimg: '../images/doodotSub3.jpg' },
+            { id: 1, subimg: './images/doodotSub0.jpg' },
+            { id: 2, subimg: './images/doodotSub1.jpg' },
+            { id: 3, subimg: './images/doodotSub2.jpg' },
+            { id: 4, subimg: './images/doodotSub3.jpg' },
         ],
         selectPrice: [
             {
@@ -1215,7 +1215,7 @@ export default [
         id: 25,
         brand: '다니카',
         title: '[단독] 뮤즈 편한 팔걸이 컴퓨터 메쉬 사무용 의자',
-        mainimg: '../images/danaka.jpg',
+        mainimg: './images/danaka.jpg',
         mainPrice: 47900,
         specialPrice: false,
         deliveryToday: false,
@@ -1228,10 +1228,10 @@ export default [
         best:'alltime',
         hh:'12',
         gallery: [
-            { id: 1, subimg: '../images/danakaSub0.jpg' },
-            { id: 2, subimg: '../images/danakaSub1.jpg' },
-            { id: 3, subimg: '../images/danakaSub2.jpg' },
-            { id: 4, subimg: '../images/danakaSub3.jpg' },
+            { id: 1, subimg: './images/danakaSub0.jpg' },
+            { id: 2, subimg: './images/danakaSub1.jpg' },
+            { id: 3, subimg: './images/danakaSub2.jpg' },
+            { id: 4, subimg: './images/danakaSub3.jpg' },
         ],
         selectPrice: [
             {
@@ -1258,7 +1258,7 @@ export default [
         id: 26,
         brand: '아이와비',
         title: '카페 방수패브릭 접이식 소파베드 4colors',
-        mainimg: '../images/iyb.jpg',
+        mainimg: './images/iyb.jpg',
         mainPrice: 119000,
         specialPrice: true,
         deliveryToday: true,
@@ -1271,10 +1271,10 @@ export default [
         best:'alltime',
         hh:'12',
         gallery: [
-            { id: 1, subimg: '../images/iybSub0.jpg' },
-            { id: 2, subimg: '../images/iybSub1.jpg' },
-            { id: 3, subimg: '../images/iybSub2.jpg' },
-            { id: 4, subimg: '../images/iybSub3.jpg' },
+            { id: 1, subimg: './images/iybSub0.jpg' },
+            { id: 2, subimg: './images/iybSub1.jpg' },
+            { id: 3, subimg: './images/iybSub2.jpg' },
+            { id: 4, subimg: './images/iybSub3.jpg' },
         ],
         selectPrice: [
             {
@@ -1294,7 +1294,7 @@ export default [
         id: 27,
         brand: 'MF매직하우스',
         title: '무볼트 드레스룸 조립식 멀티행거',
-        mainimg: '../images/nfmagic.jpg',
+        mainimg: './images/nfmagic.jpg',
         mainPrice: 119000,
         specialPrice: true,
         deliveryToday: false,
@@ -1307,10 +1307,10 @@ export default [
         best:'alltime',
         hh:'12',
         gallery: [
-            { id: 1, subimg: '../images/nfmagicSub0.jpg' },
-            { id: 2, subimg: '../images/nfmagicSub1.jpg' },
-            { id: 3, subimg: '../images/nfmagicSub2.jpg' },
-            { id: 4, subimg: '../images/nfmagicSub3.jpg' },
+            { id: 1, subimg: './images/nfmagicSub0.jpg' },
+            { id: 2, subimg: './images/nfmagicSub1.jpg' },
+            { id: 3, subimg: './images/nfmagicSub2.jpg' },
+            { id: 4, subimg: './images/nfmagicSub3.jpg' },
         ],
         selectPrice: [
             {
@@ -1324,7 +1324,7 @@ export default [
         id: 28,
         brand: '에꼬드에꼬',
         title: '키드니빈즈 친환경 접이식 좌식테이블 2size (보호캡 증정)',
-        mainimg: '../images/aco.jpg',
+        mainimg: './images/aco.jpg',
         mainPrice: 17900,
         specialPrice: false,
         deliveryToday: false,
@@ -1337,10 +1337,10 @@ export default [
         best:'alltime',
         hh:'12',
         gallery: [
-            { id: 1, subimg: '../images/acoSub0.jpg' },
-            { id: 2, subimg: '../images/acoSub1.jpg' },
-            { id: 3, subimg: '../images/acoSub2.jpg' },
-            { id: 4, subimg: '../images/acoSub3.jpg' },
+            { id: 1, subimg: './images/acoSub0.jpg' },
+            { id: 2, subimg: './images/acoSub1.jpg' },
+            { id: 3, subimg: './images/acoSub2.jpg' },
+            { id: 4, subimg: './images/acoSub3.jpg' },
         ],
         selectPrice: [
             {
@@ -1369,7 +1369,7 @@ export default [
         id: 29,
         brand: '한샘',
         title: '한샘몰pick티렌토 리세 아쿠아텍스 3인용 패브릭 소파 3colors',
-        mainimg: '../images/hansam.jpg',
+        mainimg: './images/hansam.jpg',
         mainPrice: 268750,
         specialPrice: false,
         deliveryToday: true,
@@ -1382,10 +1382,10 @@ export default [
         best:'alltime',
         hh:'12',
         gallery: [
-            { id: 1, subimg: '../images/hansamSub0.jpg' },
-            { id: 2, subimg: '../images/hansamSub1.jpg' },
-            { id: 3, subimg: '../images/hansamSub2.jpg' },
-            { id: 4, subimg: '../images/hansamSub3.jpg' },
+            { id: 1, subimg: './images/hansamSub0.jpg' },
+            { id: 2, subimg: './images/hansamSub1.jpg' },
+            { id: 3, subimg: './images/hansamSub2.jpg' },
+            { id: 4, subimg: './images/hansamSub3.jpg' },
         ],
         selectPrice: [
             {
@@ -1404,7 +1404,7 @@ export default [
         id: 30,
         brand: '먼데이하우스',
         title: '[쿠폰가 50,065원] CLEAR 강화유리 거실테이블/타원형 소파테이블',
-        mainimg: '../images/monday.jpg',
+        mainimg: './images/monday.jpg',
         mainPrice: 58900,
         specialPrice: true,
         deliveryToday: true,
@@ -1417,10 +1417,10 @@ export default [
         best:'alltime',
         hh:'12',
         gallery: [
-            { id: 1, subimg: '../images/mondaySub0.jpg' },
-            { id: 2, subimg: '../images/mondaySub1.jpg' },
-            { id: 3, subimg: '../images/mondaySub2.jpg' },
-            { id: 4, subimg: '../images/mondaySub3.jpg' },
+            { id: 1, subimg: './images/mondaySub0.jpg' },
+            { id: 2, subimg: './images/mondaySub1.jpg' },
+            { id: 3, subimg: './images/mondaySub2.jpg' },
+            { id: 4, subimg: './images/mondaySub3.jpg' },
         ],
         selectPrice: [
             {

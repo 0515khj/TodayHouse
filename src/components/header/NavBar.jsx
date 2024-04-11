@@ -9,7 +9,7 @@ const NavBar = () => {
     return (
         <NavGnb>
             <Menu>
-                <li><Link to={'/community/home'} onMouseOver={()=>dispatch(onCumu())} >커뮤니티</Link></li>
+                <li><Link to={'/home'} onMouseOver={()=>dispatch(onCumu())} >커뮤니티</Link></li>
                 <li><Link to={'/shopping'} onMouseOver={()=>dispatch(onShop())} >쇼핑</Link></li>
             </Menu>
         </NavGnb>
